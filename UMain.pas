@@ -17,25 +17,42 @@ type
     Drive_Background: TShape;
     procedure FormShow(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+
   private
+    IsSearching: Boolean;
     { Private declarations }
     procedure GetDiskType(DriveList: TComboBox);
-  public
-    { Public declarations }
+
+   public
+    property myIsSearching: Boolean read IsSearching write IsSearching;
+    procedure startdemo();
   end;
 
 var
   Form1: TForm1;
 
 implementation
-
+ uses
+ UMy_Disk;
 {$R *.dfm}
 
 { TForm1 }
+ var
+  disk: My_Disk;
+
+procedure TForm1.Button1Click(Sender: TObject);
+
+begin
+
+
+   TThread.CreateAnonymousThread(startdemo).Start;
+end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
       Com_drvie.ItemIndex := 0;
+      disk:= My_Disk.Create;
 end;
 
 procedure TForm1.FormShow(Sender: TObject);
@@ -74,6 +91,11 @@ begin
 
   end;
 
+end;
+
+procedure TForm1.startdemo;
+begin
+    disk.myStart;
 end;
 
 end.
