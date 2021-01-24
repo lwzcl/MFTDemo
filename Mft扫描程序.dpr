@@ -2,7 +2,9 @@ program Mft…®√Ë≥Ã–Ú;
 
 uses
   Vcl.Forms,
-  UMain in 'UMain.pas' {Form1};
+  UMain in 'UMain.pas' {Form1},
+  uNTFS in 'uNTFS.pas',
+  UMy_Disk in 'UMy_Disk.pas';
 
 {$R *.res}
 

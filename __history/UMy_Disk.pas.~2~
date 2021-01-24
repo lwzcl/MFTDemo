@@ -1,0 +1,20 @@
+unit UMy_Disk;
+
+interface
+
+uses
+  System.Classes, Winapi.Windows, Vcl.StdCtrls, System.SysUtils,uNTFS;
+type
+time_t = Int64;
+
+type
+  My_Disk = class
+  private { Private declarations }
+    mySectorsPerCluster: string;
+  public
+
+  end;
+
+implementation
+
+end.

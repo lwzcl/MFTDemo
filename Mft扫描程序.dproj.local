@@ -2,8 +2,11 @@
 <BorlandProject>
   <Transactions>
     <Transaction>2021-01-24 18:04:32.472,=C:\Users\apple\Documents\delphi\Unit1.pas</Transaction>
-    <Transaction>2021-01-24 18:09:28.728,C:\Users\apple\Documents\2021Delphi\MFTDemo\UMain.pas=C:\Users\apple\Documents\delphi\Unit1.pas</Transaction>
     <Transaction>2021-01-24 18:09:28.728,C:\Users\apple\Documents\2021Delphi\MFTDemo\UMain.dfm=C:\Users\apple\Documents\delphi\Unit1.dfm</Transaction>
+    <Transaction>2021-01-24 18:09:28.728,C:\Users\apple\Documents\2021Delphi\MFTDemo\UMain.pas=C:\Users\apple\Documents\delphi\Unit1.pas</Transaction>
     <Transaction>2021-01-24 18:09:42.459,C:\Users\apple\Documents\2021Delphi\MFTDemo\Mft扫描程序.dproj=C:\Users\apple\Documents\delphi\Project1.dproj</Transaction>
+    <Transaction>2021-01-24 18:26:20.694,=C:\Users\apple\Documents\2021Delphi\MFTDemo\uNTFS.pas</Transaction>
+    <Transaction>2021-01-24 18:27:52.302,=C:\Users\apple\Documents\2021Delphi\MFTDemo\Unit1.pas</Transaction>
+    <Transaction>2021-01-24 18:29:31.355,C:\Users\apple\Documents\2021Delphi\MFTDemo\UMy_Disk.pas=C:\Users\apple\Documents\2021Delphi\MFTDemo\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
